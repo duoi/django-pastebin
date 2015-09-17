@@ -1,0 +1,8 @@
+{% extends "dump/base.html" %}
+
+{% block content %}
+    <div class="post">
+      {% if post.language != "code" %}
+          <code class="{{ post.language }}" style="max-height:none">{% else %}<code style="max-height:none">{% endif %}{{ post.text }}</code>
+    </div>
+{% endblock %}

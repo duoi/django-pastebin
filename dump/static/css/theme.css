@@ -1,0 +1,16 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+   font-size: 12px;
+}
+
+#id_text {
+  width: 100%;
+}
+ p{
+   font-size: 12px;
+ }
+
+#post{
+  max-height: 100%
+}

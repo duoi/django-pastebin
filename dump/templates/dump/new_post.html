@@ -1,0 +1,12 @@
+{% extends "dump/base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+<div class="container">
+    <form method="POST">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-lg btn-primary">Save</button>
+    </form>
+</div>
+</div>
+{% endblock %}
